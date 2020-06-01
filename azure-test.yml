@@ -8,9 +8,9 @@ pool:
   
 resources:
   repositories:
-    - repository: mayar-1995/Azure-Templates
+    - repository: Templates
       type: github
-      name: base-template.yml
+      name: mayar-1995/Azure-Templates
       endpoint: mayar-1995
 
 jobs:
