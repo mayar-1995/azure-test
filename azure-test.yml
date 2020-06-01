@@ -10,7 +10,7 @@ resources:
   repositories:
     - repository: Azure-Templates
       type: github
-      name: Azure-Templates
+      name: base-template.yml
       endpoint: mayar-1995
 
 jobs:
