@@ -14,4 +14,4 @@ resources:
       endpoint: mayar-1995
 
 jobs:
-- template: base-template.yml@Azure-Templates  # Template reference
+- template: base-template.yml@Templates  # Template reference
