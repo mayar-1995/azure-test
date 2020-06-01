@@ -1,5 +1,6 @@
 # Repo: mayar-1995/azure-test
 # File: azure-test.yml
+# Test
 trigger:
 - master
 
