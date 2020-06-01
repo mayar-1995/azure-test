@@ -2,9 +2,9 @@
 # File: azure-test.yml
 resources:
   repositories:
-    - repository: mayar-1995
+    - repository: Azure-Templates
       type: github
       name: Azure-Templates
 
 jobs:
-- template: base-template.yml@mayar-selim  # Template reference
+- template: base-template.yml@Azure-Templates  # Template reference
