@@ -1,0 +1,10 @@
+# Repo: mayar-1995/azure-test
+# File: azure-test.yml
+resources:
+  repositories:
+    - repository: mayar-1995
+      type: github
+      name: Azure-Templates
+
+jobs:
+- template: base-template.yml@mayar-selim  # Template reference
