@@ -1,5 +1,11 @@
 # Repo: mayar-1995/azure-test
 # File: azure-test.yml
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+  
 resources:
   repositories:
     - repository: Azure-Templates
