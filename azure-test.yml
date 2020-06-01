@@ -5,6 +5,7 @@ resources:
     - repository: Azure-Templates
       type: github
       name: Azure-Templates
+      endpoint: mayar-1995
 
 jobs:
 - template: base-template.yml@Azure-Templates  # Template reference
