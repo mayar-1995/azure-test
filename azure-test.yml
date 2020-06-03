@@ -7,21 +7,21 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
   
-# resources:
-#   repositories:
-#     - repository: Templates
-#       type: github
-#       name: mayar-1995/Azure-Templates
-#       endpoint: mayar-1995
+resources:
+   repositories:
+     - repository: Templates
+       type: github
+       name: mayar-1995/Azure-Templates
+       endpoint: mayar-1995
 
-# jobs:
-# - template: base-template.yml@Templates  # Template reference
-steps:
-- task: CmdLine@2
-  inputs:
-    script: |
-      ls
-      pwd
-      sudo apt-get install groovy
-      chmod +x hi.groovy
-      groovy hi.groovy
+ jobs:
+ - template: base-template.yml@Templates  # Template reference
+#steps:
+#- task: CmdLine@2
+ # inputs:
+   # script: |
+     # ls
+     # pwd
+     # sudo apt-get install groovy
+     # chmod +x hi.groovy
+      #groovy hi.groovy
