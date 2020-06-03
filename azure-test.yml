@@ -15,7 +15,7 @@ resources:
        endpoint: mayar-1995
 
  jobs:
- - template: base-template.yml@Templates  # Template reference
+ - template: base-template.yml@Templates
 #steps:
 #- task: CmdLine@2
  # inputs:
