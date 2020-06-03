@@ -3,19 +3,16 @@
 # Test
 trigger:
 - master
-
 pool:
-  vmImage: 'ubuntu-latest'
-  
+  vmImage: 'ubuntu-latest' 
 resources:
    repositories:
      - repository: Templates
        type: github
        name: mayar-1995/Azure-Templates
        endpoint: mayar-1995
-
 jobs:
- - template: base-template.yml@Templates
+- template: base-template.yml@Templates
 #steps:
 #- task: CmdLine@2
  # inputs:
