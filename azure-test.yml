@@ -14,7 +14,7 @@ resources:
        name: mayar-1995/Azure-Templates
        endpoint: mayar-1995
 
- jobs:
+jobs:
  - template: base-template.yml@Templates
 #steps:
 #- task: CmdLine@2
