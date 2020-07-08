@@ -9,10 +9,9 @@ resources:
    repositories:
      - repository: Templates
        type: github
-       name: mayar-1995/Azure-Templates
+       name: mayar-1995/resources
        endpoint: mayar-1995
 jobs:
-- template: base-template.yml@Templates
 - job: Test
   steps:
   - task: CmdLine@2
