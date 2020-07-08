@@ -15,7 +15,7 @@ jobs:
 - job: Test
   steps:
   ##- checkout: Templates
-  - template: base-template.yml/Templates
+  - template: base-template.yml@Templates
   - task: CmdLine@2
     inputs:
      script: |
