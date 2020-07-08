@@ -13,9 +13,9 @@ resources:
        endpoint: mayar-1995
 jobs:
 - template: base-template.yml@Templates
-steps:
-- task: CmdLine@2
-   inputs:
+  steps:
+  - task: CmdLine@2
+    inputs:
      script: |
       ls
       pwd
