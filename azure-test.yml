@@ -20,7 +20,7 @@ jobs:
       ls
       pwd
       sudo apt-get install groovy
-      chmod +x hi.groovy
+      chmod +x hiiii.groovy
       groovy hi.groovy
 
 
