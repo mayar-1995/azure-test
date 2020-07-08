@@ -16,13 +16,13 @@ jobs:
   steps:
   ##- checkout: Templates
   - template: base-template.yml@Templates
-  - task: CmdLine@2
-    inputs:
-     script: |
-      ls
-      pwd
-      sudo apt-get install groovy
-      chmod +x hi.groovy
-      groovy hi.groovy
+ # - task: CmdLine@2
+ #   inputs:
+ #    script: |
+ #     ls
+ #     pwd
+ #     sudo apt-get install groovy
+ #     chmod +x hi.groovy
+ #     groovy hi.groovy
 
 
