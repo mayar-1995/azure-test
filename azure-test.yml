@@ -14,13 +14,14 @@ resources:
 jobs:
 - job: Test
   steps:
+  - checkout: Templates
   - task: CmdLine@2
     inputs:
      script: |
       ls
       pwd
       sudo apt-get install groovy
-      chmod +x hiiii.groovy
-      groovy hiiii.groovy
+      chmod +x hi.groovy
+      groovy hi.groovy
 
 
