@@ -21,6 +21,6 @@ jobs:
       pwd
       sudo apt-get install groovy
       chmod +x hiiii.groovy
-      groovy hi.groovy
+      groovy hiiii.groovy
 
 
