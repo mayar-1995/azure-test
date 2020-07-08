@@ -9,7 +9,7 @@ resources:
    repositories:
      - repository: Templates
        type: github
-       name: mayar-1995/resources
+       name: mayar-1995/azure-templates
        endpoint: mayar-1995
 jobs:
 - job: Test
