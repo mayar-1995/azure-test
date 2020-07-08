@@ -14,7 +14,8 @@ resources:
 jobs:
 - job: Test
   steps:
-  - checkout: Templates
+  ##- checkout: Templates
+  - template: /Templates
   - task: CmdLine@2
     inputs:
      script: |
